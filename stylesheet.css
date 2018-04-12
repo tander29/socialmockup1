@@ -1,0 +1,196 @@
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    max-width: 1000px;
+    max-height: 5000px;
+    background-color: grey;
+    z-index: -3;
+    
+    
+
+}
+
+.background {
+height: 375px;
+width: 850px;
+background-image: url("theshire.jpg");
+background-size: cover;
+position: absolute;
+align-content: center;
+z-index: -1;
+
+}
+.backwhite 
+{
+height: 40px;
+width: 850px;
+background: rgba(245, 247, 244, 0.842);
+position: absolute;
+top: 375px;
+align-content: center;
+z-index: -2;
+}
+
+h2{
+    font-size: 1em;
+}
+
+.picture {
+height: 200px;
+width: 200px;
+background-image: url("gnomelife.jpg");
+background-size: cover;
+border: black solid 1pt;
+position: relative;
+top: 200px;
+left: 25px;
+}
+
+header {
+   position: relative;
+   left: 260px;
+   color:white;
+   
+}
+#tbackground {
+position: absolute;
+top: 330px;
+right: 10px;
+font-size: 2em;
+}
+
+ 
+#tbackground tr td:first-child {
+padding-right: 15pt;
+padding-left: 5pt;
+
+}
+
+#tbackground tr td{
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: 0;
+    margin-left: 0;
+
+}
+#tbelow {
+   position: relative;
+   left: 250px;
+   bottom: -60px;
+   border-spacing: 10pt;
+   padding-right: 30pt;
+   font-size: 1.25em;
+     
+}
+#tbelow tr td{
+    border-right: seagreen solid 1pt
+}
+
+#tbelow tr td:hover {
+    text-decoration: underline;
+}
+
+#gnomehead {
+    position: relative;
+    margin-bottom: 70px;
+    clear: both;
+}
+
+.column1 {
+    width: 328px;
+    float: left;
+
+    
+}
+
+.column2 {
+    float: right;
+    width: 512px;
+    margin-right: 150px;
+
+}
+
+#left1 {
+width: 300px;
+height: 100px;
+background-color: green;
+position:relative;
+margin-bottom: 5pt auto;
+margin-left: 10pt;
+border: black solid 1pt
+
+}
+
+#left1a {
+width:275px;
+height: 80px;
+background-color: darkcyan;
+position: relative;
+margin: 10pt;
+
+}
+
+
+#left2 {
+    width: 300px;
+    height: 400px;
+    background-color: green;
+    position:relative;
+    margin: 10pt;
+    border: black solid 1pt;
+    }
+
+    #right1 {
+        width:  500px;
+        height: 300px;
+        background-color: rgb(36, 13, 168);
+        position:relative;
+        margin-right: 10pt;
+        margin-bottom:10pt;
+        border: black solid 1pt;
+        }
+        #right1a {
+            width:  100px;
+            height: 100px;
+            background-image: url("gnomefriend.jpeg");
+            background-size: cover;
+            position: relative;
+            left: 50px;
+            top: 50px;
+            border: black solid 1pt;
+        
+        }
+#right1b {
+    position: relative;
+    left: 50px;
+    max-width: 400px;
+    top:50pt;
+    border: solid lightseagreen 1pt;
+    background-color: lightgreen;
+    
+}
+
+#right1b p:nth-child(2){
+    font-size: .75em;
+}
+
+        #right2 {
+            width:  500px;
+            height: 100px;
+            background-color: rgb(36, 13, 168);
+            position:relative;
+            margin-right: 10pt;
+         margin-bottom:10pt;
+         border: black solid 1pt;
+            }
+    
+            #right1c {
+                position: relative;
+                top: 70px;
+                left: 100px;
+            }
+            #right1c:hover {
+                text-decoration-color: blue;
+                text-decoration-line: underline;
+                
+            }
